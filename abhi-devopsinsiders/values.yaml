@@ -1,0 +1,8 @@
+replicaCount : 2
+appName : todoappui
+targetport: 80
+
+image:
+  name: devopsinsiders/todoapp-ui-new
+  tag: v3
+  port: 80
